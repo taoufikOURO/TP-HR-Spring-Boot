@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Entity
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Employe {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,4 +20,5 @@ public class Employe {
     private String prenom;
     private String dnaissance;
     private String sexe;
+    
 }
